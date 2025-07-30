@@ -585,12 +585,12 @@ class Estetica2(Scene):
 
         self.wait(1)
 
-with tempconfig({
-    "quality": "high_quality",  # Or "medium_quality", "low_quality", etc.
-    "save_last_frame": False,   # save a PNG of the last frame (-s)
-    "write_to_movie": True,
-    "preview": True,            # Opens the video after rendering
-    "output_file": "my_scene4",   # Optional: name of the output file
-}):
-    Estetica2().render()
+# with tempconfig({
+#     "quality": "low_quality",  # Or "medium_quality", "low_quality", etc.
+#     "save_last_frame": False,   # save a PNG of the last frame (-s)
+#     "write_to_movie": True,
+#     "preview": True,            # Opens the video after rendering
+#     "output_file": "my_scene4",   # Optional: name of the output file
+# }):
+#     Estetica2().render()
 
